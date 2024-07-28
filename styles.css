@@ -1,0 +1,46 @@
+.body {
+    background-color: rgb(26, 177, 228);
+    background-size: cover; /* Ajusta la imagen para cubrir toda la pantalla */
+    background-repeat: no-repeat; /* Evita la repetición de la imagen */
+    font-family: Arial, sans-serif; /* Tipo de fuente para todo el documento */
+    margin: 0; /* Elimina el margen por defecto */
+    padding: 20px; /* Añade espacio alrededor del contenido */
+}
+.container {
+max-width: 600px;
+margin: auto;
+background-color: rgba(255, 255, 255, 0.8); /* Fondo semitransparente para mejor legibilidad */
+padding: 20px;
+border-radius: 10px;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra suave alrededor del contenedor */
+}
+h1 {
+text-align: center;
+}
+form {
+max-width: 400px;
+margin: auto;
+}
+label {
+display: block;
+margin-bottom: 10px;
+}
+input[type="text"],
+input[type="date"],
+input[type="number"],
+input[type="submit"] {
+width: calc(100% - 20px); /* Ajusta el ancho de los campos de entrada */
+padding: 10px;
+margin-bottom: 10px;
+border: 1px solid #ccc;
+border-radius: 5px;
+font-size: 16px;
+}
+input[type="submit"] {
+background-color: #4CAF50; /* Color de fondo para el botón */
+color: white; /* Color del texto del botón */
+cursor: pointer;
+}
+input[type="submit"]:hover {
+background-color: #45a049; /* Color de fondo al pasar el ratón sobre el botón */
+}
